@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horiz_margin">16dp</dimen>
+    <dimen name = "activity_vert_margin">16dp</dimen>
+    <dimen name="activity_horiz_margin_landscape">25dp</dimen>
+    <dimen name = "logo_dimen">100dp</dimen>
+</resources>

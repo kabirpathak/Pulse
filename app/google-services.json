@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "235376549514",
+    "firebase_url": "https://pulse-17854.firebaseio.com",
+    "project_id": "pulse-17854",
+    "storage_bucket": "pulse-17854.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235376549514:android:192da2bbd7bc169f",
+        "android_client_info": {
+          "package_name": "firstapp.com.pulse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235376549514-q8f8jhctcvu7fgh8h611rna7l4uiqmpg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "firstapp.com.pulse",
+            "certificate_hash": "4e004ad69ad95a9af4a7edefa1fd8e9056521315"
+          }
+        },
+        {
+          "client_id": "235376549514-h8l6c88k2trft3gguj55eeu9gfe072nq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUHg8sppYXKmpI8WYDtGrN5mkzb8s2hLY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235376549514-h8l6c88k2trft3gguj55eeu9gfe072nq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

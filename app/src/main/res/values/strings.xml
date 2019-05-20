@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Pulse</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="btn_link_to_login">Already registered? Login.</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="hint_password">Password</string>
+    <string name="username">Username</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered email address to send you the password reset instructions.</string>
+    <string name="hint_email">Email</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="forgot_password2">Change the password of your account.</string>
+    <string name="delete_account">Delete your account. Once you delete your account, all your user data will be lost.</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="customer_support">If you are facing any issue, just send us an email and we will look into it!</string>
+    <string name="editProfileActivity">Edit Profile</string>
+</resources>

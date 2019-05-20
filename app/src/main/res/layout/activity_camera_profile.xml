@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".CameraProfile">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_camera_alt_black_24dp"
+            android:layout_width="match_parent">
+
+        </ImageView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="5dp">
+            <Button
+
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimaryDark"
+                android:text="Open camera"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_above="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/uploadFromDevice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimaryDark"
+                android:text="Upload from device"/>
+        </android.support.v7.widget.CardView>
+        <ImageButton
+            android:id="@+id/uploadButton"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/circle_blue"
+            android:src="@drawable/ic_file_upload_black_24dp"/>
+        <ImageButton
+            android:id="@+id/uploadBitmapButton"
+            android:layout_width="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="100dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_file_upload_black_24dp"
+            android:background="@drawable/circle_dark"/>
+
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1">
+        <item android:id="@+id/profile_nav"
+              android:icon="@drawable/ic_person_black_24dp"
+              android:checkable="true"
+              android:title="Profile"/>
+    </group>
+    <group android:id="@+id/group2">
+        <item android:id="@+id/receipts_nav"
+            android:icon="@drawable/ic_receipt_black_24dp"
+            android:checkable="true"
+            android:title="Receipts"/>
+    </group>
+    <group android:id="@+id/group3">
+        <item android:id="@+id/application_nav"
+            android:icon="@drawable/ic_local_hospital_black_24dp"
+            android:checkable="true"
+            android:title="Consult"/>
+    </group>
+    <group android:id="@+id/group4">
+        <item android:id="@+id/settings_nav"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:checkable="true"
+            android:title="Settings"/>
+    </group>
+    <group
+        android:id="@+id/group5">
+        <item android:id="@+id/logout_nav"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:checkable="true"
+            android:title="Logout"/>
+    </group>
+    <group
+        android:id="@+id/group6"></group>
+
+</menu>

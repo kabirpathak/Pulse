@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>Dept 1</item>
+        <item>Dept 2</item>
+
+
+    </string-array>
+    <string-array name="good_array">
+        <item>Doctor 1 of second dept</item>
+        <item>Doctor 2 of second dept</item>
+        <item>Doctor 3 of second dept</item>
+        <item>Doctor 4 of second dept</item>
+    </string-array>
+    <string-array name="bad_array">
+        <item>Doctor 1 of first Dept</item>
+        <item>Doctor 2 of first Dept</item>
+        <item>Doctor 3 of first Dept</item>
+        <item>Doctor 4 of first Dept</item>
+    </string-array>
+    <string-array name="gender_list">
+
+            <item>Male</item>
+
+
+            <item>Female</item>
+
+
+            <item>Other</item>
+
+    </string-array>
+</resources>
